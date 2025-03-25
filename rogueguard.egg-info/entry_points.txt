@@ -1,0 +1,2 @@
+[console_scripts]
+rogueguard = rogueguard.cli:main

@@ -1,3 +1,43 @@
+Metadata-Version: 2.4
+Name: rogueguard
+Version: 1.0.0
+Summary: Advanced AI system for detecting and analyzing potential rogue AI behavior
+Home-page: https://github.com/rogueguard/rogueguard
+Author: RogueWatch Team
+Author-email: contact@rogueguard.ai
+Keywords: ai,security,monitoring,rogue-ai,safety
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Security
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: agno>=1.2.3
+Requires-Dist: openai>=1.0.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: scikit-learn>=1.3.0
+Requires-Dist: PyYAML>=6.0.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # RogueGuard 🛡️
 
 Advanced AI system for detecting and analyzing potential rogue AI behavior. RogueGuard helps maintain AI safety by monitoring AI responses for signs of misalignment, deception, or unauthorized behavior.
